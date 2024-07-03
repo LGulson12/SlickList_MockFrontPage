@@ -32,5 +32,23 @@
   
   .footer-right a:hover {
     color: #ff5733;
+  } 
+
+  .address-container {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
   }
   
+  .address-container p {
+    margin: 0;
+  }
+  
+  .address-container:hover {
+    background-color: #555;
+    transition: background-color 0.3s;
+  }
+  
+  .address-container:hover p {
+    background-color: inherit;
+  }

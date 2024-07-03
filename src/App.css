@@ -39,7 +39,7 @@ nav ul li a {
 
 .scroll-to-top {
   position: fixed;
-  bottom: 110px; /* Adjust this value as needed to position above the footer */
+  bottom: 190px; /* Adjust this value as needed to position above the footer */
   right: 30px; /* Adjust this value as needed */
   padding: 10px 20px;
   font-size: 18px;
