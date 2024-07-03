@@ -34,6 +34,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `npm run deploy`
 
+First make sure to run `npm run build` then `npm run deploy`
 deploy to firebase
 url: https://slicklist-4f6ac.web.app/
 
