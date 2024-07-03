@@ -1,0 +1,38 @@
+/* src/components/Welcome.css */
+.carousel-item img {
+  height: 600px;
+  object-fit: cover;
+}
+  
+/* src/components/Welcome.css */
+.welcome-container {
+  padding: 20px;
+}
+
+.welcome-header {
+  margin-bottom: 20px;
+}
+
+.welcome-title {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.welcome-logo {
+  height: 200px;
+  transition: transform 0.6s; /* Smooth transition for the flip */
+}
+
+.welcome-logo:hover {
+  animation: flip 0.6s forwards; /* Trigger the animation on hover */
+}
+
+@keyframes flip {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}

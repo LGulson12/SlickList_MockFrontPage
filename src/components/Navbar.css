@@ -1,0 +1,55 @@
+/* General navbar styling */
+.navbar {
+    background-color: #333;
+    padding: 10px 20px;
+  }
+  
+  .nav-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .nav-item {
+    position: relative;
+  }
+  
+  .nav-item a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+  }
+  
+  .nav-item a:hover {
+    background-color: #555;
+  }
+  
+  /* Dropdown menu styling */
+  .dropdown .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    top: 100%;
+    left: 0;
+    min-width: 200px;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  .dropdown-menu li a {
+    padding: 10px 20px;
+    display: block;
+  }
+  
+  .dropdown-menu li a:hover {
+    background-color: #555;
+  }
+  
