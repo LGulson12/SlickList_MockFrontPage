@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# SlickList Mock Frontpage
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a mock frontpage for the dental supply portal product, "SlickList". It's implemented with React, Bootstrap, JavaScript, and CSS.
 
 ## Available Scripts
 
